@@ -13,6 +13,7 @@
 		7A06ECE420DAB10A007187FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A06ECE320DAB10A007187FE /* Assets.xcassets */; };
 		7A06ECE720DAB10A007187FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A06ECE520DAB10A007187FE /* LaunchScreen.storyboard */; };
 		7A06ECEF20DABADE007187FE /* bigbunny.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7A06ECEE20DABADE007187FE /* bigbunny.mp4 */; };
+		7A06ECF420DAE5A9007187FE /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 7A06ECF320DAE5A9007187FE /* Sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7A06ECE620DAB10A007187FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A06ECE820DAB10A007187FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A06ECEE20DABADE007187FE /* bigbunny.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bigbunny.mp4; sourceTree = "<group>"; };
+		7A06ECF320DAE5A9007187FE /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		7A06ECDB20DAB109007187FE /* BigBunnySampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				7A06ECF320DAE5A9007187FE /* Sounds */,
 				7A06ECEE20DABADE007187FE /* bigbunny.mp4 */,
 				7A06ECDC20DAB109007187FE /* AppDelegate.swift */,
 				7A06ECDE20DAB109007187FE /* ViewController.swift */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A06ECF420DAE5A9007187FE /* Sounds in Resources */,
 				7A06ECE720DAB10A007187FE /* LaunchScreen.storyboard in Resources */,
 				7A06ECE420DAB10A007187FE /* Assets.xcassets in Resources */,
 				7A06ECEF20DABADE007187FE /* bigbunny.mp4 in Resources */,
