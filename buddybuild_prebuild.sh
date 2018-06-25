@@ -2,8 +2,27 @@
 
 echo "Removing old Xcodes"
 
-echo password | sudo find /Applications/ -name "Xcode*" -depth 1 -not -name "Xcode-10.0-beta.app" -exec rm -Rf {} \;
-ls -hal /Applications | grep "Xcode"
+echo password | rm -Rf /Applications/Xcode-9.4.1.app || true &
+echo password | rm -Rf /Applications/Xcode-9.4.app || true &
+echo password | rm -Rf /Applications/Xcode-9.3.1.app || true &
+echo password | rm -Rf /Applications/Xcode-9.3.app || true &
+echo password | rm -Rf /Applications/Xcode-9.2.app || true &
+echo password | rm -Rf /Applications/Xcode-9.1.app || true &
+echo password | rm -Rf /Applications/Xcode-9.0.1.app || true &
+echo password | rm -Rf /Applications/Xcode-9.0.app || true &
+echo password | rm -Rf /Applications/Xcode-8.3.3.app || true &
+echo password | rm -Rf /Applications/Xcode-8.3.2.app || true &
+echo password | rm -Rf /Applications/Xcode-8.3.1.app || true &
+echo password | rm -Rf /Applications/Xcode-8.3.app || true &
+echo password | rm -Rf /Applications/Xcode-8.2.1.app || true &
+echo password | rm -Rf /Applications/Xcode-8.2.app || true &
+echo password | rm -Rf /Applications/Xcode-8.1.app || true &
+echo password | rm -Rf /Applications/Xcode-8.0.app || true &
+echo password | rm -Rf /Applications/Xcode-7.3.1.app || true &
+echo password | rm -Rf /Applications/Xcode-7.2.1.app || true &
+echo password | rm -Rf /Applications/Xcode-7.1.1.app || true &
+echo password | rm -Rf /Applications/Xcode-7.0.1.app || true &
+
 
 echo "Downloading video file..."
 
