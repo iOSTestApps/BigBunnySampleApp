@@ -2,12 +2,14 @@
 
 echo "Removing old Xcodes"
 
-find /Applications/ -name "Xcode*" -depth 1 -not -name "Xcode-10.0-beta.app" -exec rm -Rf {} \;
+echo password | sudo find /Applications/ -name "Xcode*" -depth 1 -not -name "Xcode-10.0-beta.app" -exec rm -Rf {} \;
 ls -hal /Applications | grep "Xcode"
 
 echo "Downloading video file..."
 
 curl -s -o BigBunnySampleApp/bigbunny.mp4 http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_60fps_stereo_abl.mp4 > /dev/null
+
+exit 0
 
 echo "Adding a bunch of sounds"
 
