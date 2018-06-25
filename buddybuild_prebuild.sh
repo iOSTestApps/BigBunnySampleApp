@@ -2,7 +2,6 @@
 
 echo "Removing old Xcodes"
 
-echo password | sudo rm -Rf /Applications/Xcode-9.4.1.app || true &
 echo password | sudo rm -Rf /Applications/Xcode-9.4.app || true &
 echo password | sudo rm -Rf /Applications/Xcode-9.3.1.app || true &
 echo password | sudo rm -Rf /Applications/Xcode-9.3.app || true &
