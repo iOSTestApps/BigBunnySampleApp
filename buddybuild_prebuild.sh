@@ -29,7 +29,7 @@ curl -s -o BigBunnySampleApp/bigbunny.mp4 http://distribution.bbb3d.renderfarmin
 
 echo "Adding a bunch of sounds"
 
-for (( index = 1; index <= 50; index++))
+for (( index = 1; index <= 10; index++))
 do
   cp BigBunnySampleApp/Sounds/soundtrack.mp3 "BigBunnySampleApp/Sounds/soundtrack-copy-$index.mp3"
 done
